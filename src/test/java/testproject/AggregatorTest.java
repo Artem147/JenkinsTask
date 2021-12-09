@@ -40,10 +40,10 @@ public class AggregatorTest {
     }
 
      @Test
-    public void testgetSum() {
+    public void testGetSum() {
         Aggregator agr = new Aggregator();
         double val = 15;
         agr.addValue(val);
-        assertThat(agr.getSum()).isEqualTo(0);
+        assertThat(agr.getSum()).isEqualTo(val);
     }
 }
