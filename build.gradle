@@ -1,8 +1,4 @@
-
-plugins {
-    id 'java'
-    id 'application'
-}
+apply plugin: 'java'
 
 repositories {
     mavenCentral()
